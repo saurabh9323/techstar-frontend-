@@ -1,3 +1,5 @@
+ @import"colors";
+
 @media screen and (max-width : 820px)  {
     .home3{
         height: 130vh;
@@ -33,4 +35,73 @@
         }
     }
     }
+
+   .home >main{
+    align-items: center;
+    h1{
+        font-size: 3rem;
+    }
+   }
+
+   .home2{
+    height: 120vh;
+    flex-direction: column;
+    > img{
+        width: 100%;
+     }
+     >div{
+        width: 100%;
+     }
+   }
+
+
+   .home3 {
+    height: 120vh;
+    div{
+        text-align: center;
+        width: 100%;
+        border-radius: 0;
+        height: 160vh;
+ 
+        >p{
+         padding: 5rem 2rem;
+         font-size: 0.9rem;
+         line-height: 150%;
+        }
+    }
+   }
+
+   .home4{
+    align-items: center;
+    > div{
+        border-radius: 0%;
+        height: unset;
+        width: 100%;
+    }
+   }
+   
+  .contact > main{
+    padding: 1rem;
+
+    h1{
+        margin: 1rem;
+    }
+    >form{
+        margin: 0%;
+        > div{
+            width:100%;
+        }
+    }
+  }
+
+  footer{
+    height: 50vh;
+    grid-template-columns: 1fr;
+    padding: 5rem;
+
+    >div{
+        align-items: center;
+    }
+  }
+
 }
